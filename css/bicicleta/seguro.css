@@ -1,0 +1,15 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+}
+
+.seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.seguro-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* para não distorcer a imagem */
+}
